@@ -3,16 +3,17 @@ module github.com/influxdata/telegraf
 go 1.16
 
 require (
-	cloud.google.com/go v0.56.0
-	cloud.google.com/go/bigquery v1.4.0
-	cloud.google.com/go/pubsub v1.2.0
+	cloud.google.com/go/bigquery v1.8.0
+	cloud.google.com/go/kms v1.4.0 // indirect
+	cloud.google.com/go/monitoring v1.6.0
+	cloud.google.com/go/pubsub v1.3.1
 	code.cloudfoundry.org/clock v1.0.0 // indirect
 	collectd.org v0.5.0
 	github.com/Azure/azure-event-hubs-go/v3 v3.2.0
 	github.com/Azure/azure-kusto-go v0.3.2
 	github.com/Azure/azure-storage-queue-go v0.0.0-20191125232315-636801874cdd
-	github.com/Azure/go-autorest/autorest v0.11.17
-	github.com/Azure/go-autorest/autorest/adal v0.9.10
+	github.com/Azure/go-autorest/autorest v0.11.27
+	github.com/Azure/go-autorest/autorest/adal v0.9.20
 	github.com/Azure/go-autorest/autorest/azure/auth v0.5.6
 	github.com/BurntSushi/toml v0.3.1
 	github.com/Mellanox/rdmamap v0.0.0-20191106181932-7c3c4763a6ee
@@ -62,16 +63,15 @@ require (
 	github.com/gofrs/uuid v3.3.0+incompatible
 	github.com/gogo/protobuf v1.3.2
 	github.com/golang/geo v0.0.0-20190916061304-5b978397cfec
-	github.com/golang/protobuf v1.5.1
+	github.com/golang/protobuf v1.5.2
 	github.com/golang/snappy v0.0.3
-	github.com/google/go-cmp v0.5.5
+	github.com/google/go-cmp v0.5.8
 	github.com/google/go-github/v32 v32.1.0
 	github.com/gopcua/opcua v0.1.13
-	github.com/gorilla/mux v1.7.3
+	github.com/gorilla/mux v1.8.0
 	github.com/gorilla/websocket v1.4.2
 	github.com/gosnmp/gosnmp v1.32.0
 	github.com/grid-x/modbus v0.0.0-20210224155242-c4a3d042e99b
-	github.com/grpc-ecosystem/grpc-gateway v1.16.0 // indirect
 	github.com/hailocab/go-hostpool v0.0.0-20160125115350-e80d13ce29ed // indirect
 	github.com/harlow/kinesis-consumer v0.3.1-0.20181230152818-2f58b136fee0
 	github.com/hashicorp/consul/api v1.8.1
@@ -140,18 +140,17 @@ require (
 	go.mongodb.org/mongo-driver v1.5.3
 	go.starlark.net v0.0.0-20210406145628-7a1108eaa012
 	go.uber.org/multierr v1.6.0 // indirect
-	golang.org/x/crypto v0.0.0-20210616213533-5ff15b29337e // indirect
-	golang.org/x/net v0.0.0-20210331212208-0fccb6fa2b5c
-	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d
-	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
-	golang.org/x/sys v0.0.0-20210615035016-665e8c7367d1
-	golang.org/x/text v0.3.6
-	golang.org/x/tools v0.1.0
+	golang.org/x/net v0.0.0-20220722155237-a158d28d115b
+	golang.org/x/oauth2 v0.0.0-20220622183110-fd043fe589d2
+	golang.org/x/sync v0.0.0-20220601150217-0de741cfad7f
+	golang.org/x/sys v0.0.0-20220811171246-fbc7d0a398ab
+	golang.org/x/text v0.3.7
+	golang.org/x/tools v0.1.10
 	golang.zx2c4.com/wireguard/wgctrl v0.0.0-20200205215550-e35592f146e4
-	google.golang.org/api v0.29.0
-	google.golang.org/genproto v0.0.0-20201110150050-8816d57aaa9a
-	google.golang.org/grpc v1.37.0
-	google.golang.org/protobuf v1.26.0
+	google.golang.org/api v0.91.0
+	google.golang.org/genproto v0.0.0-20220808131553-a91ffa7f803e
+	google.golang.org/grpc v1.48.0
+	google.golang.org/protobuf v1.28.0
 	gopkg.in/djherbis/times.v1 v1.2.0
 	gopkg.in/fatih/pool.v2 v2.0.0 // indirect
 	gopkg.in/gorethink/gorethink.v3 v3.0.5
@@ -160,10 +159,10 @@ require (
 	gopkg.in/tomb.v1 v1.0.0-20141024135613-dd632973f1e7
 	gopkg.in/yaml.v2 v2.4.0
 	gotest.tools v2.2.0+incompatible
-	k8s.io/api v0.20.4
-	k8s.io/apimachinery v0.21.1
-	k8s.io/client-go v0.20.4
-	modernc.org/sqlite v1.10.8
+	k8s.io/api v0.25.0
+	k8s.io/apimachinery v0.25.0
+	k8s.io/client-go v0.25.0
+	modernc.org/sqlite v1.18.2
 )
 
 // replaced due to https://github.com/satori/go.uuid/issues/73
