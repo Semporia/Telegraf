@@ -48,7 +48,7 @@ require (
 	github.com/dimchansky/utfbom v1.1.1
 	github.com/docker/docker v20.10.6+incompatible
 	github.com/doclambda/protobufquery v0.0.0-20210317203640-88ffabe06a60
-	github.com/dynatrace-oss/dynatrace-metric-utils-go v0.2.0
+	github.com/dynatrace-oss/dynatrace-metric-utils-go v0.5.0
 	github.com/eclipse/paho.mqtt.golang v1.3.0
 	github.com/form3tech-oss/jwt-go v3.2.3+incompatible // indirect
 	github.com/ghodss/yaml v1.0.1-0.20190212211648-25d852aebe32
@@ -145,7 +145,7 @@ require (
 	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
 	golang.org/x/sys v0.0.0-20220811171246-fbc7d0a398ab
-	golang.org/x/text v0.3.7
+
 	golang.org/x/tools v0.1.0
 	golang.zx2c4.com/wireguard/wgctrl v0.0.0-20200205215550-e35592f146e4
 	google.golang.org/api v0.29.0
