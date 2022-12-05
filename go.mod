@@ -29,7 +29,7 @@ require (
 	github.com/apache/thrift v0.13.0
 	github.com/aristanetworks/glog v0.0.0-20191112221043-67e8567f59f3 // indirect
 	github.com/aristanetworks/goarista v0.0.0-20190325233358-a123909ec740
-	github.com/aws/aws-sdk-go v1.38.69
+	github.com/aws/aws-sdk-go v1.44.152
 	github.com/aws/aws-sdk-go-v2 v1.3.2
 	github.com/aws/aws-sdk-go-v2/config v1.1.5
 	github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.0.6
@@ -140,10 +140,10 @@ require (
 	go.mongodb.org/mongo-driver v1.5.3
 	go.starlark.net v0.0.0-20210406145628-7a1108eaa012
 	go.uber.org/multierr v1.6.0 // indirect
-	golang.org/x/net v0.0.0-20221014081412-f15817d10f9b
+	golang.org/x/net v0.1.0
 	golang.org/x/oauth2 v0.0.0-20221014153046-6fdb5e3db783
 	golang.org/x/sync v0.1.0
-	golang.org/x/sys v0.0.0-20220811171246-fbc7d0a398ab
+	golang.org/x/sys v0.1.0
 	golang.org/x/text v0.4.0
 	golang.org/x/tools v0.1.12
 	golang.zx2c4.com/wireguard/wgctrl v0.0.0-20200205215550-e35592f146e4
