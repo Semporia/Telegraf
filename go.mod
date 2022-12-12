@@ -3,10 +3,10 @@ module github.com/influxdata/telegraf
 go 1.16
 
 require (
-	cloud.google.com/go/bigquery v1.43.0
+	cloud.google.com/go/bigquery v1.44.0
 	cloud.google.com/go/kms v1.7.0 // indirect
 	cloud.google.com/go/monitoring v1.9.0
-	cloud.google.com/go/pubsub v1.3.1
+	cloud.google.com/go/pubsub v1.28.0
 	code.cloudfoundry.org/clock v1.0.0 // indirect
 	collectd.org v0.5.0
 	github.com/Azure/azure-event-hubs-go/v3 v3.2.0
@@ -148,7 +148,7 @@ require (
 	golang.org/x/tools v0.1.12
 	golang.zx2c4.com/wireguard/wgctrl v0.0.0-20200205215550-e35592f146e4
 	google.golang.org/api v0.103.0
-	google.golang.org/genproto v0.0.0-20221201164419-0e50fba7f41c
+	google.golang.org/genproto v0.0.0-20221202195650-67e5cbc046fd
 	google.golang.org/grpc v1.50.1
 	google.golang.org/protobuf v1.28.1
 	gopkg.in/djherbis/times.v1 v1.2.0
