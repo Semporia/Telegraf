@@ -30,11 +30,11 @@ require (
 	github.com/aristanetworks/glog v0.0.0-20191112221043-67e8567f59f3 // indirect
 	github.com/aristanetworks/goarista v0.0.0-20190325233358-a123909ec740
 	github.com/aws/aws-sdk-go v1.44.152
-	github.com/aws/aws-sdk-go-v2 v1.3.2
-	github.com/aws/aws-sdk-go-v2/config v1.1.5
-	github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.0.6
+	github.com/aws/aws-sdk-go-v2 v1.16.16
+	github.com/aws/aws-sdk-go-v2/config v1.17.7
+	github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.12.17
 	github.com/aws/aws-sdk-go-v2/service/ec2 v1.1.0
-	github.com/aws/smithy-go v1.3.1
+	github.com/aws/smithy-go v1.13.3
 	github.com/benbjohnson/clock v1.0.3
 	github.com/bitly/go-hostpool v0.1.0 // indirect
 	github.com/bmatcuk/doublestar/v3 v3.0.0
@@ -51,7 +51,6 @@ require (
 	github.com/doclambda/protobufquery v0.0.0-20210317203640-88ffabe06a60
 	github.com/dynatrace-oss/dynatrace-metric-utils-go v0.5.0
 	github.com/eclipse/paho.mqtt.golang v1.3.0
-	github.com/form3tech-oss/jwt-go v3.2.3+incompatible // indirect
 	github.com/ghodss/yaml v1.0.1-0.20190212211648-25d852aebe32
 	github.com/go-logfmt/logfmt v0.5.1
 	github.com/go-ping/ping v0.0.0-20210201095549-52eed920f98c
@@ -119,9 +118,9 @@ require (
 	github.com/shirou/gopsutil v3.21.6-0.20210624221800-cb512c850043+incompatible
 	github.com/shopspring/decimal v0.0.0-20200105231215-408a2507e114 // indirect
 	github.com/signalfx/golib/v3 v3.3.34
-	github.com/sirupsen/logrus v1.7.0
+	github.com/sirupsen/logrus v1.9.0
 	github.com/sleepinggenius2/gosmi v0.4.3
-	github.com/snowflakedb/gosnowflake v1.5.0
+	github.com/snowflakedb/gosnowflake v1.6.16
 	github.com/streadway/amqp v0.0.0-20190827072141-edfb9018d271
 	github.com/stretchr/testify v1.8.1
 	github.com/tbrandon/mbserver v0.0.0-20170611213546-993e1772cc62
