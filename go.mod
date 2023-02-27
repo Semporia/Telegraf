@@ -91,7 +91,7 @@ require (
 	github.com/karrick/godirwalk v1.16.1
 	github.com/kballard/go-shellquote v0.0.0-20180428030007-95032a82bc51
 	github.com/lib/pq v1.3.0 // indirect
-	github.com/matttproud/golang_protobuf_extensions v1.0.2-0.20181231171920-c182affec369
+	github.com/matttproud/golang_protobuf_extensions v1.0.4
 	github.com/mdlayher/apcupsd v0.0.0-20200608131503-2bf01da7bf1b
 	github.com/microsoft/ApplicationInsights-Go v0.4.4
 	github.com/miekg/dns v1.1.31
@@ -108,9 +108,9 @@ require (
 	github.com/pierrec/lz4 v2.5.2+incompatible // indirect
 	github.com/pion/dtls/v2 v2.0.9
 	github.com/pkg/errors v0.9.1
-	github.com/prometheus/client_golang v1.13.0
-	github.com/prometheus/client_model v0.2.0
-	github.com/prometheus/common v0.37.0
+	github.com/prometheus/client_golang v1.14.0
+	github.com/prometheus/client_model v0.3.0
+	github.com/prometheus/common v0.40.0
 	github.com/prometheus/procfs v0.8.0
 	github.com/prometheus/prometheus v1.8.2-0.20200911110723-e83ef207b6c2
 	github.com/riemann/riemann-go-client v0.5.0
@@ -142,11 +142,11 @@ require (
 	go.mongodb.org/mongo-driver v1.5.3
 	go.starlark.net v0.0.0-20210406145628-7a1108eaa012
 	go.uber.org/multierr v1.6.0 // indirect
-	golang.org/x/net v0.1.0
-	golang.org/x/oauth2 v0.0.0-20221014153046-6fdb5e3db783
+	golang.org/x/net v0.4.0
+	golang.org/x/oauth2 v0.3.0
 	golang.org/x/sync v0.1.0
-	golang.org/x/sys v0.1.0
-	golang.org/x/text v0.4.0
+	golang.org/x/sys v0.3.0
+	golang.org/x/text v0.5.0
 	golang.org/x/tools v0.1.12
 	golang.zx2c4.com/wireguard/wgctrl v0.0.0-20200205215550-e35592f146e4
 	google.golang.org/api v0.103.0
